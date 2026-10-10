@@ -174,3 +174,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# === 上游 workflow 文件（不入库：token 缺 workflow scope）===
+.github/workflows/
+
+# === Office 临时锁文件（不入库）===
+~$*
+~$*.docx
+~$*.xlsx
